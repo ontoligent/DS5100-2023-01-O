@@ -2,7 +2,7 @@
 //_HIDE
 
 lessons/*
-
+!lessons/M01*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

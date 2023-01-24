@@ -1,0 +1,46 @@
+digraph gitflow {
+
+
+    rankdir=TB
+
+    graph [nodesep=.75]
+    node [shape=box fontname=arial]
+    edge [fontname=arial]
+
+    legend1 [label=<not owned by you &rarr;> shape=plaintext]
+    
+    U [label=<<b>upstream</b><br/>on GitHub> style=filled color=lightblue]
+    O [label=<<b>origin</b><br/>on GitHub> style=filled color=palegreen]
+    L1 [label="local\nworkstation\ne.g. on your laptop" style=filled color=palegreen]
+    L2 [label="remote\nworkstation\ne.g. on Rivanna" style=filled color=palegreen]
+
+
+    O -> L1 [label="clone" style=dashed]
+    O -> L2 [label="clone" style=dashed]
+    L1 -> O [label="push"]
+    L2 -> O [label="push"]
+    O -> L1 [label="pull"]
+    O -> L2 [label="pull"]
+
+    O -> U [label="pull\nrequest"]
+    U -> O [label="fork", style=dashed]
+    U -> O [label="fetch\nupstream"]
+
+    // U -> L1
+
+    // Zone1 [style=invis]
+    // Zone2 [style=invis]
+
+    // {rank=same; Zone1; U; O}
+    // {rank=same; Zone2; L1; L2}
+
+
+
+
+
+
+
+
+
+
+}

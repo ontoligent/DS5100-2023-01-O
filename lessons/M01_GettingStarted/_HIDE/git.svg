@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="438pt" height="261pt" viewBox="0.00 0.00 438.01 260.80">
+<g id="graph0" class="graph" transform="translate(-2.9745071220849297,262.0706138660716) scale(1.0309683187947891)" data-name="gitflow">
+
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-256.8 434.01,-256.8 434.01,4 -4,4" style=""/>
+<!-- legend1 -->
+<g id="node1" class="node" pointer-events="visible" data-name="legend1">
+
+<text text-anchor="start" x="8" y="-230.6" font-family="arial" font-size="14.00" style="">not owned by you →</text>
+</g>
+<!-- U -->
+<g id="node2" class="node" pointer-events="visible" data-name="U">
+
+<polygon fill="lightblue" stroke="lightblue" points="274.19,-252.8 195.12,-252.8 195.12,-216.8 274.19,-216.8 274.19,-252.8" style=""/>
+<text text-anchor="start" x="203.14" y="-237.2" font-family="arial" font-weight="bold" font-size="14.00" style="">upstream</text>
+<text text-anchor="start" x="203.13" y="-223.2" font-family="arial" font-size="14.00" style="">on GitHub</text>
+</g>
+<!-- O -->
+<g id="node3" class="node" pointer-events="visible" data-name="O">
+
+<polygon fill="palegreen" stroke="palegreen" points="274.19,-147.2 195.12,-147.2 195.12,-111.2 274.19,-111.2 274.19,-147.2" style=""/>
+<text text-anchor="start" x="215.21" y="-131.6" font-family="arial" font-weight="bold" font-size="14.00" style="">origin</text>
+<text text-anchor="start" x="203.13" y="-117.6" font-family="arial" font-size="14.00" style="">on GitHub</text>
+</g>
+<!-- U&#45;&gt;O -->
+<g id="edge8" class="edge" data-name="U-&gt;O">
+
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M195.03,-223.27C173.69,-216.7 150.49,-207.82 144.31,-198.8 135.87,-186.48 135.87,-177.52 144.31,-165.2 153.76,-151.41 169.48,-143.05 185.19,-137.99" style=""/>
+<polygon fill="black" stroke="black" points="186.24,-141.33 194.91,-135.24 184.34,-134.59 186.24,-141.33" style=""/>
+<text text-anchor="middle" x="156.32" y="-177.8" font-family="arial" font-size="14.00" style="">fork</text>
+</g>
+<!-- U&#45;&gt;O -->
+<g id="edge9" class="edge" data-name="U-&gt;O">
+
+<path fill="none" stroke="black" d="M227.3,-216.66C225.25,-211.08 223.32,-204.77 222.29,-198.8 219.77,-184.08 219.77,-179.92 222.29,-165.2 222.76,-162.49 223.41,-159.72 224.17,-156.98" style=""/>
+<polygon fill="black" stroke="black" points="227.54,-157.93 227.3,-147.34 220.88,-155.77 227.54,-157.93" style=""/>
+<text text-anchor="middle" x="251.83" y="-186.2" font-family="arial" font-size="14.00" style="">fetch</text>
+<text text-anchor="middle" x="251.83" y="-169.4" font-family="arial" font-size="14.00" style="">upstream</text>
+</g>
+<!-- O&#45;&gt;U -->
+<g id="edge7" class="edge" data-name="O-&gt;U">
+
+<path fill="none" stroke="black" d="M274.19,-145.92C281.97,-150.89 289.11,-157.23 293.65,-165.2 301.04,-178.18 301.04,-185.82 293.65,-198.8 290.81,-203.78 286.96,-208.13 282.57,-211.9" style=""/>
+<polygon fill="black" stroke="black" points="280.16,-209.33 274.19,-218.08 284.32,-214.96 280.16,-209.33" style=""/>
+<text text-anchor="middle" x="323" y="-186.2" font-family="arial" font-size="14.00" style="">pull</text>
+<text text-anchor="middle" x="323" y="-169.4" font-family="arial" font-size="14.00" style="">request</text>
+</g>
+<!-- L1 -->
+<g id="node4" class="node" pointer-events="visible" data-name="L1">
+
+<polygon fill="palegreen" stroke="palegreen" points="175.62,-58.6 43.68,-58.6 43.68,0.2 175.62,0.2 175.62,-58.6" style=""/>
+<text text-anchor="middle" x="109.65" y="-41.8" font-family="arial" font-size="14.00" style="">local</text>
+<text text-anchor="middle" x="109.65" y="-25" font-family="arial" font-size="14.00" style="">workstation</text>
+<text text-anchor="middle" x="109.65" y="-8.2" font-family="arial" font-size="14.00" style="">e.g. on your laptop</text>
+</g>
+<!-- O&#45;&gt;L1 -->
+<g id="edge1" class="edge" data-name="O-&gt;L1">
+
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M194.9,-127.98C136.7,-126.72 32.64,-120.57 9.18,-93.2 -5.49,-76.08 10.78,-62.08 34.2,-51.66" style=""/>
+<polygon fill="black" stroke="black" points="35.56,-54.88 43.47,-47.84 32.89,-48.41 35.56,-54.88" style=""/>
+<text text-anchor="middle" x="26.39" y="-80.6" font-family="arial" font-size="14.00" style="">clone</text>
+</g>
+<!-- O&#45;&gt;L1 -->
+<g id="edge5" class="edge" data-name="O-&gt;L1">
+
+<path fill="none" stroke="black" d="M195.05,-124.32C172.53,-120.12 145.41,-111.38 127.86,-93.2 121.3,-86.4 117.08,-77.39 114.37,-68.32" style=""/>
+<polygon fill="black" stroke="black" points="117.75,-67.43 111.98,-58.55 110.95,-69.09 117.75,-67.43" style=""/>
+<text text-anchor="middle" x="139.55" y="-80.6" font-family="arial" font-size="14.00" style="">pull</text>
+</g>
+<!-- L2 -->
+<g id="node5" class="node" pointer-events="visible" data-name="L2">
+
+<polygon fill="palegreen" stroke="palegreen" points="428.72,-58.6 314.58,-58.6 314.58,0.2 428.72,0.2 428.72,-58.6" style=""/>
+<text text-anchor="middle" x="371.65" y="-41.8" font-family="arial" font-size="14.00" style="">remote</text>
+<text text-anchor="middle" x="371.65" y="-25" font-family="arial" font-size="14.00" style="">workstation</text>
+<text text-anchor="middle" x="371.65" y="-8.2" font-family="arial" font-size="14.00" style="">e.g. on Rivanna</text>
+</g>
+<!-- O&#45;&gt;L2 -->
+<g id="edge2" class="edge" data-name="O-&gt;L2">
+
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M243.62,-111.03C250.09,-99.99 259.68,-85.97 271.18,-76.4 281.3,-67.99 293.2,-60.77 305.2,-54.71" style=""/>
+<polygon fill="black" stroke="black" points="306.88,-57.78 314.37,-50.29 303.84,-51.47 306.88,-57.78" style=""/>
+<text text-anchor="middle" x="288.39" y="-80.6" font-family="arial" font-size="14.00" style="">clone</text>
+</g>
+<!-- O&#45;&gt;L2 -->
+<g id="edge6" class="edge" data-name="O-&gt;L2">
+
+<path fill="none" stroke="black" d="M274.53,-114.28C287.62,-108.75 301.82,-101.68 313.65,-93.2 324.23,-85.61 334.37,-75.84 343.11,-66.27" style=""/>
+<polygon fill="black" stroke="black" points="345.82,-68.5 349.82,-58.69 340.57,-63.86 345.82,-68.5" style=""/>
+<text text-anchor="middle" x="344.55" y="-80.6" font-family="arial" font-size="14.00" style="">pull</text>
+</g>
+<!-- L1&#45;&gt;O -->
+<g id="edge3" class="edge" data-name="L1-&gt;O">
+
+<path fill="none" stroke="black" d="M140.76,-58.68C153.35,-69.82 168.23,-82.47 182.29,-93.2 187.67,-97.3 193.5,-101.46 199.25,-105.41" style=""/>
+<polygon fill="black" stroke="black" points="197.32,-108.33 207.56,-111.03 201.23,-102.53 197.32,-108.33" style=""/>
+<text text-anchor="middle" x="197.83" y="-80.6" font-family="arial" font-size="14.00" style="">push</text>
+</g>
+<!-- L2&#45;&gt;O -->
+<g id="edge4" class="edge" data-name="L2-&gt;O">
+
+<path fill="none" stroke="black" d="M393.4,-58.57C399.57,-70.19 402.68,-83.22 394.65,-93.2 380.94,-110.24 325.94,-119.44 284.22,-124.07" style=""/>
+<polygon fill="black" stroke="black" points="283.78,-120.59 274.2,-125.12 284.51,-127.55 283.78,-120.59" style=""/>
+<text text-anchor="middle" x="414.83" y="-80.6" font-family="arial" font-size="14.00" style="">push</text>
+</g>
+</g>
+</svg>
