@@ -1,10 +1,9 @@
 *//.DS_Store
-//_HIDE
+*//_HIDE
 
 lessons/*
 !lessons/M01*
 !lessons/M02*
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
