@@ -1,8 +1,10 @@
-*//.DS_Store
-//_HIDE
+**/.DS_Store
+**/_HIDE
+**/tmp 
 
 lessons/*
 !lessons/M01*
+!lessons/M02*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -134,3 +136,13 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
+lessons/M02_BasicPython/_HIDE/operators.ipynb
+lessons/M02_BasicPython/_HIDE/pyScript01.py
+lessons/M02_BasicPython/_HIDE/pyScript02.py
+lessons/M02_BasicPython/_HIDE/pyScript05.py
+lessons/M02_BasicPython/_HIDE/pyScript04.py
+lessons/M02_BasicPython/_HIDE/pyScript03.py
+lessons/M02_BasicPython/_HIDE/pyScript02B.py
+lessons/M02_BasicPython/_HIDE/ALL.py
+lessons/M02_BasicPython/_HIDE/M02-00-Basic_Python.ipynb
+lessons/M02_BasicPython/_HIDE/M02-06-Expressions.ipynb
