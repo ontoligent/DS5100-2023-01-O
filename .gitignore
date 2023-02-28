@@ -8,6 +8,7 @@ lessons/*
 !lessons/M03*
 !lessons/M04*
 !lessons/M05*
+!lessons/M06*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
