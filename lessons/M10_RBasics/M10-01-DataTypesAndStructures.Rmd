@@ -143,7 +143,7 @@ On the other hand, it is erroneous trying to parse a non-decimal string.
 as.integer("Joe")   # coerce an non-decimal string 
 ```
 
-We can conver booleans to numbers this way, too.
+We can convert booleans to numbers this way, too.
 
 ```{r}
 as.integer(TRUE)    # the numeric value of TRUE 
@@ -211,7 +211,7 @@ We convert objects into character values with the `as.character()`
 function:
 
 ```{r}
-x = as.character(3.14) 
+x <- as.character(3.14) 
 x
 ```
 
@@ -542,14 +542,14 @@ vector L of the same length, and have its second and fourth members set
 as TRUE.
 
 ```{r}
-L = c(FALSE, TRUE, FALSE, TRUE, FALSE) 
+L = c(FALSE, TRUE, FALSE, TRUE, FALSE)
 s[L] 
 ```
 
 The code can be abbreviated into a single line.
 
 ```{r}
-s[c(FALSE, TRUE, FALSE, TRUE, FALSE)] 
+s[c(FALSE, TRUE, FALSE, TRUE, FALSE)]
 ```
 
 ### Naming Vector Members with `names()`
@@ -652,7 +652,7 @@ It is essentially **a list of vectors of equal length**. For example,
 the following variable df is a data frame containing three vectors `n`,
 `s`, `b`.
 
-You can think of a dataframe is a special kind of list.
+You can think of a data frame is a special kind of list.
 
 ```{r}
 n <- c(2, 3, 5) 
@@ -917,10 +917,12 @@ The cells inside the table are separated by blank characters.
 
 Here is an example of a table with 4 rows and 3 columns.
 
-    100 a1 b1 
-    200 a2 b2 
-    300 a3 b3 
-    400 a4 b4
+```         
+100 a1 b1 
+200 a2 b2 
+300 a3 b3 
+400 a4 b4
+```
 
 Now copy and paste the table above in a file named "mydata.txt" with a
 text editor.
@@ -941,10 +943,12 @@ usually is a comma, although other characters can be used as well.
 The first row of the data file should contain the column names instead
 of the actual data. Here is a sample of the expected format.
 
-    Col1,Col2,Col3 
-    100,a1,b1 
-    200,a2,b2 
-    300,a3,b3
+```         
+Col1,Col2,Col3 
+100,a1,b1 
+200,a2,b2 
+300,a3,b3
+```
 
 After we copy and paste the data above in a file named "mydata.csv" with
 a text editor, we can read the data with the function read.csv
