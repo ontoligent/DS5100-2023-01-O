@@ -20,24 +20,26 @@ They work the same way in both languages.
 
 Here's their syntax in R.
 
-    if(<condition>) {
-            ## do something
-    } 
+```         
+if(<condition>) {
+        ## do something
+} 
 
-    if(<condition>) {
-            ## do something
-    } 
-    else {
-            ## do something else
-    }
+if(<condition>) {
+        ## do something
+} 
+else {
+        ## do something else
+}
 
-    if(<condition1>) {
-            ## do something
-    } else if(<condition2>)  {
-            ## do something different
-    } else {
-            ## do something different
-    }
+if(<condition1>) {
+        ## do something
+} else if(<condition2>)  {
+        ## do something different
+} else {
+        ## do something different
+}
+```
 
 Generate a uniform random number:
 
@@ -68,13 +70,15 @@ z
 
 You can stack `if` blocks, too.
 
-    if(<condition1>) {
+```         
+if(<condition1>) {
 
-    }
+}
 
-    if(<condition2>) {
+if(<condition2>) {
 
-    }
+}
+```
 
 # Control Structures
 
